@@ -1,0 +1,94 @@
+/* Responsive design for small devices */
+@media (max-width: 768px) {
+    .container {
+      padding: 10px;
+      background-color: whitesmoke;
+      border-radius: 10px;
+    }
+    .table {
+      font-size: 0.9rem;
+    }
+    .btn {
+      padding: 5px 10px;
+      font-size: 0.8rem;
+      color:black;
+      background-color: rgb(157, 0, 255);
+      border-radius: 5px;
+    }
+    .form-floating {
+      margin-bottom: 0px;
+    }
+    .row {
+      margin-bottom: 10px;
+    }
+    .w-25 {
+      width: 80%;
+    }
+    .mx-2 {
+      margin: 5px;
+    }
+    .my-5 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  
+
+  @media (max-width: 576px) {
+    .table {
+      font-size: 0.8rem;
+    }
+    .btn {
+      padding: 3px 8px;
+      font-size: 0.7rem;
+      border-radius: 5px;
+      
+    }
+    .form-control {
+      font-size: 0.9rem;
+    }
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container-fluid {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px; 
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 10px; /* Rounded corners for tables */
+  overflow: hidden; /* Ensure rounding is visible */
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color:rgb(138, 145, 145);
+  }
+  
+
+  
+  /* Spinner position */
+  .spinner-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
